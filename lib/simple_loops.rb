@@ -19,8 +19,7 @@ end
 def return_string_array(array)
   answer_array = Array.new
     for i in array
-      binding.pry
-      answer_array << array[i].to_s
+      answer_array.push(array[i].to_s}
     end
   answer_array
 end
