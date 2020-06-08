@@ -22,4 +22,4 @@ def return_string_array(array)
       (array[i].to_s) >> answer_array
     end
   answer_array
-end  
+end
