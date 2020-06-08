@@ -20,7 +20,7 @@ def return_string_array(array)
   answer_array = Array.new
     for i in array do
       answer_array.push(array[i].to_s)
-      
+
     end
   answer_array
 end
