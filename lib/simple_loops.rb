@@ -1,5 +1,5 @@
 # Write your methods here
-require "pry"
+
 def loop_message_five_times(string)
   5.times{puts string}
 end
@@ -19,8 +19,8 @@ end
 def return_string_array(array)
   answer_array = Array.new
     for i in array do
-      answer_array.push(array[i].to_s)
-binding.pry
+      answer_array.push(i.to_s)
+
     end
   answer_array
 end
